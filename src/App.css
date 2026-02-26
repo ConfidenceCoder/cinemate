@@ -1,0 +1,9 @@
+/*
+Source - https://stackoverflow.com/a/79527127
+Posted by rozsazoltan, modified by community. See post 'Timeline' for change history
+Retrieved 2026-02-22, License - CC BY-SA 4.0
+*/
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
