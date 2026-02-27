@@ -6,7 +6,7 @@ function App() {
   
 
   return (
-    <div className='dark:bg-gray-800 min-h-screen dark:text-white flex flex-col'>
+    <div className='dark:bg-gray-800 min-h-screen text-gray-800 bg-amber-50 dark:text-white flex flex-col'>
       <Header/>
       <section className="flex-grow">
       <AllRoutes/>
