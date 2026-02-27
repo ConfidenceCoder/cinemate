@@ -9,7 +9,6 @@ export const Search = ({apiPath}) => {
   const query = searchParams.get("q");
   const {data: movie=[]} =useFetch(apiPath,query);
     useTitle(`search result for ${query}/cinemate`)
-console.log(movie);
   return (
     <div>
       <p className='text-3xl text-gray-700 dark:text-white py-7 px-9'> {movie.length===0 ? `No result found for ${query}`: `result for ${query}`}</p>

@@ -6,7 +6,6 @@ export const MovieList = ({apiPath,title}) => {
 
   const {data: movie=[]} =useFetch(apiPath);
   useTitle(title);
-console.log(movie);
   return (
     <div>
     <section className='  mx-auto gap-3 flex justify-center max-w-7xl flex-wrap py-10  '>
